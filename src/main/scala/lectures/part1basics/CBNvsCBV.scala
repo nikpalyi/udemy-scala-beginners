@@ -15,9 +15,9 @@ object CBNvsCBV extends App {
   calledByValue(System.nanoTime())
   calledByName(System.nanoTime())
 
-  def inifinite(): Int = 1+ inifinite()
+  def infinite(): Int = 1+ infinite()
   def printFirst(x: Int, y: => Int) = println()
 
-  //printFirst(inifinite(), 34)
-  //printf(34, inifinite())
+  //printFirst(infinite(), 34)
+  //printf(34, infinite())
 }
